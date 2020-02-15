@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@aeternity/aepp-sdk@4.5.0":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@aeternity/aepp-sdk/-/aepp-sdk-4.5.0.tgz#a90c6f518f59f0c7f995b6ffa1a05c340135268b"
-  integrity sha512-xUf3BdFR8LP6qdwkIBUlfiUE+mtNOURP+wer6127cWMTA6/TG0iYjG0+y538mRWQJHh/sxa2UJhr5wyxlIZlKg==
+"@aeternity/aepp-sdk@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@aeternity/aepp-sdk/-/aepp-sdk-5.0.0.tgz#be402b9e5cbadba9e0e7c15b901a1ac55e0dc351"
+  integrity sha512-lKtPcGnh8US+tNHvQvvbSOcSHevRH/NJqjyPnVN79mgSRYLqsWAqpe/E3/ZnhwIvg+yAgm4gOGet7sDNoyffcQ==
   dependencies:
     "@aeternity/bip39" "^0.1.0"
-    "@babel/runtime" "^7.5.5"
+    "@babel/runtime" "^7.6.2"
     "@stamp/it" "^1.0.3"
     "@stamp/required" "^1.0.1"
     aes-js "^3.1.1"
@@ -23,20 +23,20 @@
     libsodium-wrappers-sumo "0.7.5"
     ramda "^0.26.1"
     rlp "2.2.3"
-    serialize-javascript "^1.5.0"
+    serialize-javascript "^2.0.0"
     sha.js "^2.4.11"
     tweetnacl "^1.0.0"
     tweetnacl-auth "^1.0.1"
     uuid "^3.3.2"
     websocket "^1.0.26"
 
-"@aeternity/aepp-sdk@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@aeternity/aepp-sdk/-/aepp-sdk-5.0.0.tgz#be402b9e5cbadba9e0e7c15b901a1ac55e0dc351"
-  integrity sha512-lKtPcGnh8US+tNHvQvvbSOcSHevRH/NJqjyPnVN79mgSRYLqsWAqpe/E3/ZnhwIvg+yAgm4gOGet7sDNoyffcQ==
+"@aeternity/aepp-sdk@^4.5.0":
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@aeternity/aepp-sdk/-/aepp-sdk-4.7.0.tgz#f99ac2badb8351dd967b066053fa2c9a3a193f98"
+  integrity sha512-RK1S9Js6920f56knaqTD12siBtfovBFGowdWxp5H/5SwnMnFdZxfT0d4ZMwgNZ51l5zAX+ZQsCI/wI4q9MwRqQ==
   dependencies:
     "@aeternity/bip39" "^0.1.0"
-    "@babel/runtime" "^7.6.2"
+    "@babel/runtime" "^7.6.0"
     "@stamp/it" "^1.0.3"
     "@stamp/required" "^1.0.1"
     aes-js "^3.1.1"
@@ -68,7 +68,14 @@
     randombytes "^2.0.1"
     safe-buffer "^5.0.1"
 
-"@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2":
+"@babel/runtime@^7.6.0":
+  version "7.8.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.4.tgz#d79f5a2040f7caa24d53e563aad49cbc05581308"
+  integrity sha512-neAp3zt80trRVBI1x0azq6c57aNBqYZH8KhMm3TaB7wEI5Q4A2SHfBHE8w9gOhI/lrqxtEbXZgQIrHP+wvSGwQ==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
+"@babel/runtime@^7.6.2":
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
   integrity sha512-kq6anf9JGjW8Nt5rYfEuGRaEAaH1mkv3Bbu6rYvLOpPh/RusSJXuKPEAoZ7L7gybZkchE8+NV5g9vKF4AGAtsA==
@@ -549,11 +556,6 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
   integrity sha512-fZEwUGbVl7kouZs1jCdMLdt95hdIv0ZeHg6L7qPeciMZhZ+/gdesW4wgTARkrFWEpspjEATAzUGPG8N2jJiwbg==
 
-serialize-javascript@^1.5.0:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.9.1.tgz#cfc200aef77b600c47da9bb8149c943e798c2fdb"
-  integrity sha512-0Vb/54WJ6k5v8sSWN09S0ora+Hnr+cX40r9F170nT+mSkaxltoE/7R3OrIdBSUv1OoiobH1QoWQbCnAO+e8J1A==
-
 serialize-javascript@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-2.1.0.tgz#9310276819efd0eb128258bb341957f6eb2fc570"
@@ -625,7 +627,7 @@ yaeti@^0.0.6:
   resolved "https://registry.yarnpkg.com/yaeti/-/yaeti-0.0.6.tgz#f26f484d72684cf42bedfb76970aa1608fbf9577"
   integrity sha1-8m9ITXJoTPQr7ft2lwqhYI+/lXc=
 
-yarn@1.19.1:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.19.1.tgz#14b92410dd1ba5bab87a12b4a3d807f4569bea97"
-  integrity sha512-gBnfbL9rYY05Gt0cjJhs/siqQXHYlZalTjK3nXn2QO20xbkIFPob+LlH44ML47GcR4VU9/2dYck1BWFM0Javxw==
+yarn@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.0.tgz#acf82906e36bcccd1ccab1cfb73b87509667c881"
+  integrity sha512-KMHP/Jq53jZKTY9iTUt3dIVl/be6UPs2INo96+BnZHLKxYNTfwMmlgHTaMWyGZoO74RI4AIFvnWhYrXq2USJkg==
